@@ -3,6 +3,7 @@
 import pandas as pd
 import numpy as np
 
+# Number of samples, x from a random uniform distribution and y = x^2
 n = 100
 x = np.random.uniform(-1, 1, n)
 y = np.power(x, 2)
